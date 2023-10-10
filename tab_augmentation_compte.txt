@@ -1,0 +1,15 @@
+Algorithme augmentation_compte 
+Variables 
+  Tableau A(20):réel
+  i:entier 
+  S:entier
+Début 
+   S <-- 1000
+   Pour i <-- 0 à 19 pas 1 Faire
+     S <-- S + S * 0.02
+     A(i) <-- S 
+   FinPour
+   Pour i <-- 0 à 19 pas 1 Faire 
+     Ecrire("A l'anniversaire",i+1,la somme du compte est:",A(i))  
+   FinPour
+Fin 

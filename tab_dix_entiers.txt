@@ -1,0 +1,12 @@
+Algorithme dix_entiers 
+Variables 
+  Tableau T(10)
+  i : entier 
+Début 
+ Pour i <-- 0 à 9 Faire 
+     T(i) <-- 0
+ FinPour
+ Pour i <-- 0 à 9 Faire
+    Ecrire(T(i))
+ FinPour
+Fin

@@ -1,0 +1,18 @@
+Algorithme max_dix_entiers 
+Variables 
+  Tableau T(10):entier
+  i:entier
+  max:entier
+Début
+   Pour i <-- 0 à 9 pas 1 Faire
+     Ecrire("Entrer l'élement",i+1,":")
+	 Lire(T(i))
+   FinPour
+   max <-- T(0)
+   Pour i <-- 1 à 9 pas 1 Faire
+     Si max < T(i) Alors 
+	  max = T(i)
+	 FinSi
+   FinPour
+   Ecrire("Le maximum des élements est:",max)
+Fin 

@@ -1,0 +1,24 @@
+Algorithme existence_nombre
+Variables 
+  Tableau T(10):entier 
+  x,i,n:entier
+Début 
+   Pour i <-- 0 à 9 pas 1 Faire 
+     Ecrire("Entrer l'élément",i+1,":")
+	 Lire(T(i))
+   FinPour
+   Ecrire("Entrer la valeur de n:")
+   Lire(n)
+   x <-- 0
+   Pour i <-- 0 à 9 pas 1 Faire
+     Si n = T(i) Alors 
+	 x <-- x + 1
+	 FinSi
+   FinPour
+   Si x = 0 
+   Ecrire("n ne se trouve pas dans le tableau")
+   Sinon
+   Ecrire("n se trouve dans le tableau")
+   FinSi   
+Fin
+  

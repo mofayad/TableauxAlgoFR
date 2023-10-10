@@ -1,0 +1,23 @@
+Algorithme notes_sup
+Variables 
+  Tableau N(10):réel
+  i,nombre:entier
+  S,M:réel
+Début 
+   Pour i <-- 0 à 9 pas 1 Faire 
+     Ecrire("Entrer la note de l'étudiant",i+1,":")
+	 Lire(N(i))
+   FinPour 
+   S <-- 0 
+   Pour i <-- 0 à 9 pas 1 Faire
+     S <-- S + N(i)
+   FinPour
+   M <-- S/10
+   nombre <-- 0
+   Pour i <-- 0 à 9 pas 1 Faire
+     Si N(i)>M Alors 
+	   nombre <-- nombre + 1
+	 FinSi
+   FinPour
+   Ecrire("Le nombre des notes supérieures à la moyenne de la classe est:",nombre)
+Fin 

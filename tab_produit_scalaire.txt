@@ -1,0 +1,19 @@
+Algorithme pr_sc_deux_vec
+Variables 
+  Tableau V(3):réel
+  Tableau U(3):réel
+  i:entier
+  P:réel
+Début
+   Pour i <-- 0 à 2 pas 1 Faire 
+     Ecrire("Entrer l'élement",i+1,"du vecteur V")
+	 Lire(V(i))
+	 Ecrire("Entrer l'élement",i+1,"du vecteur U")
+	 Lire(U(i))
+   FinPour
+   P <-- 0 
+   Pour i <-- 0 à 2 pas 1 Faire
+     P <-- P + V(i) * U(i)
+   FinPour
+   Ecrire("Le produit scalaire de deux vecteurs U et V est:", P)
+Fin 

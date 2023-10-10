@@ -1,0 +1,17 @@
+Algorithme ordre_inverse
+Variables 
+  Tableau T1(6):entier
+  Tableau T2(6):entier
+  i:entier
+Début  
+   Pour i <-- 0 à 5 pas 1 Faire
+   Ecrire("Entrer l'élement",i+1,":")
+   Lire(T1(i))
+   FinPour
+   Pour i <-- 0 à 5 pas 1 Faire
+     T2(5-i) <-- T1(i)
+   FinPour
+   Pour i <-- 0 à 5 pas 1 Faire
+     Ecrire("L'élement",i+1,"du tableau inversé est:",T2(i))
+   FinPour
+Fin 

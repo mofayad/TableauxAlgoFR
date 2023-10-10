@@ -1,0 +1,19 @@
+Algorithme nombre_occurence
+Variables 
+  Tableau T(50):entier
+  x,n,i:entier
+Début 
+   Pour i <-- 0 à 49 pas 1 Faire 
+     Ecrire("Entrer l'élement",i+1,":")
+	 Lire(T(i))
+   FinPour
+   Ecrire("Entrer la valeur de n:")
+   Lire(n)
+   x <-- 0 
+   Pour i <-- 0 à 49 pas 1 Faire
+     Si n = T(i) Alors 
+	   x <-- w+1
+	 FinSi
+   FinPour
+   Ecrire("Le nombre d'occurence de",n,"dans T est:",x)
+Fin 
